@@ -1,4 +1,4 @@
-This is the full list of notice types and templates.
+👋 This is the full list of [notice](https://notice.studio) types and templates.
 
 ### What is a type?
 Example of types: `blog`, `job-board`, `portfolio`. Types are use cases oriented, they have a strong impact on how the app behaves.
