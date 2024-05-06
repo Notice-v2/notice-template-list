@@ -1,0 +1,107 @@
+{
+    "blog": {
+        "text": "Blog",
+        "type": "blog",
+        "color": "templateColors.blog",
+        "templates": {
+            "blog-01": {
+                "app-url": "https://notice-blog-template-01.vercel.app/",
+                "description": "A simple blog template with a clean design."
+            },
+            "blog-02": {
+                "app-url": "https://notice-blog-template-02.vercel.app/",
+                "description": "A more agressive design, you will need good cover images to make it look good!"
+            }
+        },
+        "pageName": "Article",
+        "config": {
+            "subtitle": {
+                "show": false
+            },
+            "description": {
+                "show": false
+            },
+            "logo": {
+                "show": true
+            }
+        }
+    },
+    "job-board": {
+        "text": "Job Board",
+        "type": "job-board",
+        "color": "templateColors.job-board",
+        "templates": {
+            "job-board-01": {
+                "app-url": "https://notice-job-board-template-01.vercel.app/",
+                "description": "List job offers in a single place. Clean and simple."
+            }
+        },
+        "pageName": "Job Offer",
+        "config": {
+            "subtitle": {
+                "show": true,
+                "defaultValue": "(Max 250 char) Ex: Find your Next Dream Job.",
+                "maxLength": 250
+            },
+            "description": {
+                "show": true,
+                "defaultValue": "We're building cutting-edge solutions that reshape industries. Join our global team of innovators and make an impact from anywhere in the world, with the flexibility to work remotely or at one of our vibrant office locations."
+            },
+            "logo": {
+                "show": true
+            },
+            "heroBackgroundColor": {
+                "show": true
+            }
+        }
+    },
+    "portfolio": {
+        "text": "Portfolio",
+        "type": "portfolio",
+        "color": "templateColors.portfolio",
+        "templates": {
+            "portfolio-01": {
+                "app-url": "https://notice-portfolio-template-01.vercel.app/",
+                "description": "Showcase your work, it deserves it."
+            }
+        },
+        "pageName": "Page",
+        "config": {
+            "subtitle": {
+                "show": true,
+                "defaultValue": "(Max 250 char) Ex: John brings digital and art together to bring life to brands in a breaking new way.",
+                "maxLength": 250
+            },
+            "description": {
+                "show": false
+            },
+            "logo": {
+                "show": true
+            }
+        }
+    },
+    "terms-of-use-01": {
+        "text": "Terms of Use",
+        "type": "terms-of-use",
+        "color": "templateColors.terms",
+        "templates": {
+            "terms-of-use-01": {
+                "app-url": "https://notice-terms-of-use-template-01.vercel.app/",
+                "description": "Host your terms of use in a clean and simple way."
+            }
+        },
+        "pageName": "Main Page",
+        "config": {
+            "subtitle": {
+                "show": true
+            },
+            "description": {
+                "show": true,
+                "defaultValue": "Please read these Terms of Use carefully before using this website."
+            },
+            "logo": {
+                "show": true
+            }
+        }
+    }
+}
