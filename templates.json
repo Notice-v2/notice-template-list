@@ -99,5 +99,28 @@
                 "show": true
             }
         }
+    },
+    "documentation": {
+        "text": "Documentation",
+        "type": "documentation",
+        "templates": {
+            "documentation-01": {
+                "app-url": "https://notice-documentation-template-01.vercel.app/",
+                "description": "Host your documentation in a clean and simple way."
+            }
+        },
+        "pageName": "Page",
+        "config": {
+            "subtitle": {
+                "show": true
+            },
+            "description": {
+                "show": true,
+                "defaultValue": "Welcome to our documentation. Here you will find all the information you need to get started with our amazing vacuum cleaner."
+            },
+            "logo": {
+                "show": true
+            }
+        }
     }
 }
