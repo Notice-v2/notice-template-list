@@ -2,14 +2,18 @@
     "blog": {
         "text": "Blog",
         "type": "blog",
+        "description": "Blogs are a great way to share news, updates, and more with your audience.",
         "templates": {
             "blog-01": {
+                "name": "Notice Default",
                 "app-url": "https://notice-blog-template-01.vercel.app/",
-                "description": "A simple blog template with a clean design."
+                "description": "A simple blog template with a clean design.",
+                "exampleUrl": "https://notice-blog-template-01.vercel.app/"
             },
             "blog-02": {
+                "name": "Van Ghogh 🎨",
                 "app-url": "https://notice-blog-template-02.vercel.app/",
-                "description": "A more agressive design, you will need good cover images to make it look good!"
+                "description": "A more agressive design, you will need beautiful cover images to make it look good!"
             }
         },
         "pageName": "Article",
@@ -28,8 +32,10 @@
     "job-board": {
         "text": "Job Board",
         "type": "job-board",
+        "description": "List job offers in a single place and allow people to send their applications with our included form. Clean and simple.",
         "templates": {
             "job-board-01": {
+                "name": "Notice Default",
                 "app-url": "https://notice-job-board-template-01.vercel.app/",
                 "description": "List job offers in a single place. Clean and simple."
             }
@@ -56,8 +62,10 @@
     "portfolio": {
         "text": "Portfolio",
         "type": "portfolio",
+        "description": "Showcase your work with our portfolio. Minimalistic and clean design to make your content stand out.",
         "templates": {
             "portfolio-01": {
+                "name": "Notice Default",
                 "app-url": "https://notice-portfolio-template-01.vercel.app/",
                 "description": "Showcase your work, it deserves it."
             }
@@ -80,8 +88,10 @@
     "terms-of-use": {
         "text": "Terms of Use",
         "type": "terms-of-use",
+        "description": "Terms of use, terms of service, or terms and conditions. Host them in a clean and simple way.",
         "templates": {
             "terms-of-use-01": {
+                "name": "Notice Default",
                 "app-url": "https://notice-terms-of-use-template-01.vercel.app/",
                 "description": "Host your terms of use in a clean and simple way."
             }
@@ -103,8 +113,10 @@
     "documentation": {
         "text": "Documentation",
         "type": "documentation",
+        "description": "Documentations, help center or knowledge base. Help your users help themselves.",
         "templates": {
             "documentation-01": {
+                "name": "Notice Default",
                 "app-url": "https://notice-documentation-template-01.vercel.app/",
                 "description": "Host your documentation in a clean and simple way."
             }
