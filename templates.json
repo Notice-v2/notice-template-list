@@ -14,6 +14,11 @@
                 "name": "Van Ghogh 🎨",
                 "app-url": "https://notice-blog-template-02.vercel.app/",
                 "description": "A more agressive design, you will need beautiful cover images to make it look good!"
+            },
+            "blog-03": {
+                "name": "Ragool Top Choice",
+                "app-url": "https://notice-blog-template-03.vercel.app/",
+                "description": "Simple one, a bit like Notice default but with a different design."
             }
         },
         "pageName": "Article",
@@ -38,6 +43,11 @@
                 "name": "Notice Default",
                 "app-url": "https://notice-job-board-template-01.vercel.app/",
                 "description": "List job offers in a single place. Clean and simple."
+            },
+            "job-board-02": {
+                "name": "Ragool Top Choice 🎨",
+                "app-url": "https://notice-job-board-template-02.vercel.app/",
+                "description": "To be honest, it's weird."
             }
         },
         "pageName": "Job Offer",
@@ -94,6 +104,16 @@
                 "name": "Notice Default",
                 "app-url": "https://notice-terms-of-use-template-01.vercel.app/",
                 "description": "Host your terms of use in a clean and simple way."
+            },
+            "terms-of-use-02": {
+                "name": "Ragool Top Choice 🎨",
+                "app-url": "https://notice-terms-of-use-template-02.vercel.app/",
+                "description": "Same thing, but it looks different."
+            },
+            "terms-of-use-03": {
+                "name": "Ragool Second Choice 🎨",
+                "app-url": "https://notice-terms-of-use-template-03-vi6a.vercel.app/",
+                "description": "Clean and simple, but with some animation to make it more fun."
             }
         },
         "pageName": "Main Page",
@@ -118,7 +138,12 @@
             "documentation-01": {
                 "name": "Notice Default",
                 "app-url": "https://notice-documentation-template-01.vercel.app/",
-                "description": "Host your documentation in a clean and simple way."
+                "description": "Host your documentation in a clean way."
+            },
+            "documentation-02": {
+                "name": "Ragool Top Choice 🎨",
+                "app-url": "https://notice-documentation-template-02.vercel.app/",
+                "description": "Simple layout and design."
             }
         },
         "pageName": "Page",
