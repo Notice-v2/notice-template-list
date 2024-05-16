@@ -1,163 +1,162 @@
 {
-    "blog": {
-        "text": "Blog",
-        "type": "blog",
-        "description": "Blogs are a great way to share news, updates, and more with your audience.",
-        "templates": {
-            "blog-01": {
-                "name": "Notice Default",
-                "app-url": "https://notice-blog-template-01.vercel.app/",
-                "description": "A simple blog template with a clean design.",
-                "exampleUrl": "https://notice-blog-template-01.vercel.app/"
-            },
-            "blog-02": {
-                "name": "Van Ghogh 🎨",
-                "app-url": "https://notice-blog-template-02.vercel.app/",
-                "description": "A more agressive design, you will need beautiful cover images to make it look good!"
-            },
-            "blog-03": {
-                "name": "Ragool Top Choice",
-                "app-url": "https://notice-blog-template-03.vercel.app/",
-                "description": "Simple one, a bit like Notice default but with a different design."
-            }
-        },
-        "pageName": "Article",
-        "config": {
-            "subtitle": {
-                "show": false
-            },
-            "description": {
-                "show": false
-            },
-            "logo": {
-                "show": true
-            }
-        }
+  "blog": {
+    "text": "Blog",
+    "type": "blog",
+    "description": "Blogs are a great way to share news, updates, and more with your audience.",
+    "templates": {
+      "blog-01": {
+        "name": "Notice Default",
+        "app-url": "https://notice-default-blog.notice.site/",
+        "description": "A simple blog template with a clean design."
+      },
+      "blog-02": {
+        "name": "Van Ghogh 🎨",
+        "app-url": "https://van-gogh-template.notice.site/",
+        "description": "A more aggressive design, you will need beautiful cover images to make it look good!"
+      },
+      "blog-03": {
+        "name": "Modern Blog",
+        "app-url": "https://modern-blog.notice.site/",
+        "description": "A blog with unique design and layout."
+      }
     },
-    "job-board": {
-        "text": "Job Board",
-        "type": "job-board",
-        "description": "List job offers in a single place and allow people to send their applications with our included form. Clean and simple.",
-        "templates": {
-            "job-board-01": {
-                "name": "Notice Default",
-                "app-url": "https://notice-job-board-template-01.vercel.app/",
-                "description": "List job offers in a single place. Clean and simple."
-            },
-            "job-board-02": {
-                "name": "Ragool Top Choice 🎨",
-                "app-url": "https://notice-job-board-template-02.vercel.app/",
-                "description": "To be honest, it's weird."
-            }
-        },
-        "pageName": "Job Offer",
-        "config": {
-            "subtitle": {
-                "show": true,
-                "defaultValue": "(Max 250 char) Ex: Find your Next Dream Job.",
-                "maxLength": 250
-            },
-            "description": {
-                "show": true,
-                "defaultValue": "We're building cutting-edge solutions that reshape industries. Join our global team of innovators and make an impact from anywhere in the world, with the flexibility to work remotely or at one of our vibrant office locations."
-            },
-            "logo": {
-                "show": true
-            },
-            "heroBackgroundColor": {
-                "show": true
-            }
-        }
-    },
-    "portfolio": {
-        "text": "Portfolio",
-        "type": "portfolio",
-        "description": "Showcase your work with our portfolio. Minimalistic and clean design to make your content stand out.",
-        "templates": {
-            "portfolio-01": {
-                "name": "Notice Default",
-                "app-url": "https://notice-portfolio-template-01.vercel.app/",
-                "description": "Showcase your work, it deserves it."
-            }
-        },
-        "pageName": "Page",
-        "config": {
-            "subtitle": {
-                "show": true,
-                "defaultValue": "(Max 250 char) Ex: John brings digital and art together to bring life to brands in a breaking new way.",
-                "maxLength": 250
-            },
-            "description": {
-                "show": false
-            },
-            "logo": {
-                "show": true
-            }
-        }
-    },
-    "terms-of-use": {
-        "text": "Terms of Use",
-        "type": "terms-of-use",
-        "description": "Terms of use, terms of service, or terms and conditions. Host them in a clean and simple way.",
-        "templates": {
-            "terms-of-use-01": {
-                "name": "Notice Default",
-                "app-url": "https://notice-terms-of-use-template-01.vercel.app/",
-                "description": "Host your terms of use in a clean and simple way."
-            },
-            "terms-of-use-02": {
-                "name": "Ragool Top Choice 🎨",
-                "app-url": "https://notice-terms-of-use-template-02.vercel.app/",
-                "description": "Same thing, but it looks different."
-            },
-            "terms-of-use-03": {
-                "name": "Ragool Second Choice 🎨",
-                "app-url": "https://notice-terms-of-use-template-03-vi6a.vercel.app/",
-                "description": "Clean and simple, but with some animation to make it more fun."
-            }
-        },
-        "pageName": "Main Page",
-        "config": {
-            "subtitle": {
-                "show": true
-            },
-            "description": {
-                "show": true,
-                "defaultValue": "Please read these Terms of Use carefully before using this website."
-            },
-            "logo": {
-                "show": true
-            }
-        }
-    },
-    "documentation": {
-        "text": "Documentation",
-        "type": "documentation",
-        "description": "Documentations, help center or knowledge base. Help your users help themselves.",
-        "templates": {
-            "documentation-01": {
-                "name": "Notice Default",
-                "app-url": "https://notice-documentation-template-01.vercel.app/",
-                "description": "Host your documentation in a clean way."
-            },
-            "documentation-02": {
-                "name": "Ragool Top Choice 🎨",
-                "app-url": "https://notice-documentation-template-02.vercel.app/",
-                "description": "Simple layout and design."
-            }
-        },
-        "pageName": "Page",
-        "config": {
-            "subtitle": {
-                "show": true
-            },
-            "description": {
-                "show": true,
-                "defaultValue": "Welcome to our documentation. Here you will find all the information you need to get started with our amazing vacuum cleaner."
-            },
-            "logo": {
-                "show": true
-            }
-        }
+    "pageName": "Article",
+    "config": {
+      "subtitle": {
+        "show": false
+      },
+      "description": {
+        "show": false
+      },
+      "logo": {
+        "show": true
+      }
     }
+  },
+  "job-board": {
+    "text": "Job Board",
+    "type": "job-board",
+    "description": "List job offers in a single place and allow people to send their applications with our included form. Clean and simple.",
+    "templates": {
+      "job-board-01": {
+        "name": "Notice Default Job Board",
+        "app-url": "https://notice-default-job-board.notice.site/",
+        "description": "List job offers in a single place. Clean and simple."
+      },
+      "job-board-02": {
+        "name": "Modern Job Board",
+        "app-url": "https://modern-job-board.notice.site/",
+        "description": "Design with bold colors and modern layout."
+      }
+    },
+    "pageName": "Job Offer",
+    "config": {
+      "subtitle": {
+        "show": true,
+        "defaultValue": "(Max 250 char) Ex: Find your Next Dream Job.",
+        "maxLength": 250
+      },
+      "description": {
+        "show": true,
+        "defaultValue": "We're building cutting-edge solutions that reshape industries. Join our global team of innovators and make an impact from anywhere in the world, with the flexibility to work remotely or at one of our vibrant office locations."
+      },
+      "logo": {
+        "show": true
+      },
+      "heroBackgroundColor": {
+        "show": true
+      }
+    }
+  },
+  "portfolio": {
+    "text": "Portfolio",
+    "type": "portfolio",
+    "description": "Showcase your work with our portfolio. Minimalistic and clean design to make your content stand out.",
+    "templates": {
+      "portfolio-01": {
+        "name": "Notice Default Portfolio",
+        "app-url": "https://notice-default-portfolio.notice.site/",
+        "description": "Showcase your work, it deserves it."
+      }
+    },
+    "pageName": "Page",
+    "config": {
+      "subtitle": {
+        "show": true,
+        "defaultValue": "(Max 250 char) Ex: John brings digital and art together to bring life to brands in a breaking new way.",
+        "maxLength": 250
+      },
+      "description": {
+        "show": false
+      },
+      "logo": {
+        "show": true
+      }
+    }
+  },
+  "terms-of-use": {
+    "text": "Terms of Use",
+    "type": "terms-of-use",
+    "description": "Terms of use, terms of service, or terms and conditions. Host them in a clean and simple way.",
+    "templates": {
+      "terms-of-use-01": {
+        "name": "Notice Default",
+        "app-url": "https://notice-default-terms.notice.site/",
+        "description": "Host your terms of use in a clean and simple way."
+      },
+      "terms-of-use-02": {
+        "name": "Colorful Privacy Policy 🎨",
+        "app-url": "https://colorful-privacy-policy.notice.site/",
+        "description": "A colorful and fun way to present your terms of use or Privacy Policy."
+      },
+      "terms-of-use-03": {
+        "name": "Animate it! 🎨",
+        "app-url": "https://notice-anouncement.notice.site/",
+        "description": "Announce any changes about your company with this animated template."
+      }
+    },
+    "pageName": "Main Page",
+    "config": {
+      "subtitle": {
+        "show": true
+      },
+      "description": {
+        "show": true,
+        "defaultValue": "Please read these Terms of Use carefully before using this website."
+      },
+      "logo": {
+        "show": true
+      }
+    }
+  },
+  "documentation": {
+    "text": "Documentation",
+    "type": "documentation",
+    "description": "Documentations, help center or knowledge base. Help your users help themselves.",
+    "templates": {
+      "documentation-01": {
+        "name": "Notice Default Documentation",
+        "app-url": "https://documentation.notice.site/",
+        "description": "Host your documentation in a clean way."
+      },
+      "documentation-02": {
+        "name": "Simplicity that is Documentation",
+        "app-url": "https://simplicity.notice.site/",
+        "description": "A simple layout and dynamic colors."
+      }
+    },
+    "pageName": "Page",
+    "config": {
+      "subtitle": {
+        "show": true
+      },
+      "description": {
+        "show": true,
+        "defaultValue": "Welcome to our documentation. Here you will find all the information you need to get started with our amazing vacuum cleaner."
+      },
+      "logo": {
+        "show": true
+      }
+    }
+  }
 }
