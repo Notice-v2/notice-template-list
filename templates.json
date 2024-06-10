@@ -18,6 +18,11 @@
         "name": "Modern Blog",
         "app-url": "https://modern-blog.notice.site/",
         "description": "A blog with unique design and layout."
+      },
+      "blog-04": {
+        "name": "Bare Bones Blog",
+        "app-url": "https://modern-blog.notice.site/",
+        "description": "A blog with simplicity as its strength."
       }
     },
     "pageName": "Article",
