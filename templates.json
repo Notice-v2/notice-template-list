@@ -140,12 +140,17 @@
     "description": "Documentations, help center or knowledge base. Help your users help themselves.",
     "templates": {
       "documentation-01": {
-        "name": "Notice Default Documentation",
+        "name": "Classic Notice Documentation",
         "app-url": "https://documentation.notice.site/",
-        "description": "Host your documentation in a clean way."
+        "description": "Host your documentation in a clean way that is universal."
       },
       "documentation-02": {
-        "name": "Simplicity that is Documentation",
+        "name": "Stylish and compact documentation",
+        "app-url": "https://documentation.notice.site/",
+        "description": "Host your documentation in a stylish and clean way."
+      },
+      "documentation-03": {
+        "name": "Simplicity that is this Documentation",
         "app-url": "https://simplicity.notice.site/",
         "description": "A simple layout and dynamic colors."
       }
